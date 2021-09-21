@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Остапенко](https://up.htmlacademy.ru/htmlcss/32/user/1889105).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
