@@ -8,40 +8,106 @@
 
 <body>
   <header class="page-header">
-    <a href="#"><img src="#" alt="Логотип сайта"></a>
+    <a class="page-header__logo" href="#"><img src="#" alt="Логотип сайта"></a>
     <nav class="page-header__nav nav">
       <ul class="nav__main-nav">
-        <li class="nav__item nav-item">
-          <a class="nav-item__nav-link" href="#">Главная</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Главная</a>
         </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__nav-link" href="#">О Седоне</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#">О Седоне</a>
         </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__nav-link" href="#">Гостиницы</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Гостиницы</a>
         </li>
       </ul>
       <ul class="nav__user-nav">
-        <li class="nav__item nav-item">
+        <li class="nav__item">
           <span class="visually-hidden">
-            <a class="nav-item__nav-link" href="#">Поиск</a>
+            <a class="nav__link" href="#">Поиск</a>
           </span>
         </li>
-        <li class="nav__item nav-item">
+        <li class="nav__item">
           <span class="visually-hidden">
-            <a class="nav-item__nav-link" href="#">Избранное</a>
+            <a class="nav__link" href="#">Избранное</a>
           </span>
         </li>
-        <li class="nav__item nav-item">
-          <a class="nav-item__nav-link" href="#">Хочу сюда!</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="main-index">
+    <h1 class="main-index__title visually-hidden">Страница города Седона</h1>
 
+    <section class="main-index__main-screen main-screen">
+      <img class="main-screen__welcome" src="#" alt="Приветствие">
+      <img class="main-screen__motto" src="#" alt="Девиз города Седона">
+      <h2 class="main-screen__title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+      <p class="main-screen__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </section>
+
+    <section class="main-index__advantages advantages">
+      <h2 class="advantages__title visually-hidden">Преимущества</h2>
+      <ol class="advantages__ordered-list">
+        <li class="advantages__ordered-item">
+          <h3 class="advantages__item-one advantages__item-title">Настоящий городок</h3>
+          <p class="advantages__item-one">— №1 —</p>
+          <p class="advantages__item-one">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <img class="advantages__item-one advantages__image-one" src="#" alt="Фотография города">
+        </li>
+        <li class="advantages__ordered-item">
+          <h3 class="advantages__item-two advantages__item-title">Там есть мост дьявола</h3>
+          <p class="advantages__item-two">— №2 —</p>
+          <p class="advantages__item-two">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <img class="advantages__item-two advantages__image-two" src="#" alt="Фотография моста Дьявола">
+        </li>
+        <li>
+          <h3 class="advantages__item-three advantages__item-title">Небольшая площадь</h3>
+          <p class="advantages__item-three">— №3 —</p>
+          <p class="advantages__item-three">Все достопримечательности находятся очень близко</p>
+        </li>
+        <li>
+          <h3 class="advantages__item-four advantages__item-title">Красивая дорога</h3>
+          <p class="advantages__item-four">— №4 —</p>
+          <p class="advantages__item-four">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </li>
+        <li>
+          <h3 class="advantages__item-five advantages__item-title">Мало туристов</h3>
+          <p class="advantages__item-five">— №5 —</p>
+          <p class="advantages__item-five">Большинство едет в Гранд Каньон и толпится там</p>
+        </li>
+      </ol>
+      <ul class="advantages__unordered-list">
+        <li class="advantages__unordered-item">
+          <h3 class="advantages__item advantages__item-title">Жильё</h3>
+          <p class="advantages__item">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </li>
+        <li class="advantages__unordered-item">
+          <h3 class="advantages__item advantages__item-title">Еда</h3>
+          <p class="advantages__item">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+        </li>
+        <li class="advantages__unordered-item">
+          <h3 class="advantages__item advantages__item-title">Сувениры</h3>
+          <p class="advantages__item">Не только китайского, но и настоящего местного производства!</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="main-index__hotel-search hotel-search">
+      <h2 class="hotel-search__title visually-hidden">Поиск гостиницы в Седоне</h2>
+      <b class="hotel-search__bold">Заинтересовались?</b>
+      <p class="hotel-search__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+        Седоне</p>
+      <a href="#" class="hotel-search__button">Поиск гостиницы в Седоне</a>
+    </section>
   </main>
+
+  <section class="mailing-list">
+
+  </section>
 </body>
 
 </html>
