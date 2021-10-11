@@ -53,18 +53,22 @@ body {
     text-transform: uppercase;
 }
 
+.main-index__motto {
+    display: block;
+    margin: auto;
+
+}
 .main-index__main-screen {
     background-image: url(../img/divider.svg), url(../img/backgrounds/index-background.jpg);
-    background-image: url;
-    background-size: 1200px 57px, 1200px 485px;
-    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
     min-height: 485px;
+    background-repeat: no-repeat;
 }
 
-.advantages {
+.advantages{
     text-align: center;
 }
-.advantages__title {
+.advantages__title{
     color: #000;
     width: 720px;
     height: 80px;
@@ -72,6 +76,7 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: auto;
 }
 .advantages__text {
     font-size: 22px;
@@ -161,8 +166,7 @@ body {
 .mailing-list {
     background-image: url(../img/backgrounds/subscribe-background.jpg);
     background-color: #83B3D3;
-    background-size: 1200px 411px;
-    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 411px;
     color: #fff;
     text-align: center;
