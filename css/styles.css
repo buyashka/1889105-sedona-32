@@ -16,7 +16,6 @@
 
 html {
     height: 100%;
-    padding: 0 40px;
 }
 
 body {
@@ -136,7 +135,7 @@ body {
 }
 .advantages__ordered-item {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -607,3 +606,4 @@ body {
 .mailing-list__catalog .mailing-list__title {
     color: #000;
 }
+
