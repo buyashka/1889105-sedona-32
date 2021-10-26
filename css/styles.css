@@ -55,6 +55,12 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+}
+.page-header__logo {
+    position: absolute;
+    top: 0px;
+    left: 531px;
 }
 .page-header__user-block {
     display: flex;
@@ -396,7 +402,6 @@ body {
     min-width: 40px;
     min-height: 18px;
     padding-top: 10px;
-    outline: red solid 2px;
 }
 .socials__twitter {
     background-image: url(../img/social-twitter.svg);
@@ -478,7 +483,6 @@ body {
 .breadcrumbs__item {
     min-width: 22px;
     min-height: 12px;
-    outline: red solid 2px;
     margin: 0 3px;
 }
 
@@ -586,7 +590,6 @@ body {
 .sorting-buttons__box {
     width: 48px;
     height: 48px;
-    outline: red solid 2px;
     margin-right: 8px;
     margin-bottom: 8px;
 }
