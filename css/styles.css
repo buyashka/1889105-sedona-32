@@ -174,7 +174,6 @@ body {
 }
 .advantages__ordered-item {
     display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -199,15 +198,21 @@ body {
 .advantages__block--type-one {
     margin: 0;
     padding: 0;
-    width: 400px;
     color: #fff;
     background-color: #83B3D3;
 }
+.advantages__text-wrap {
+    width: 400px;
+}
 .advantages__block--type-two {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     background-color: #83B3D31F
 }
 .advantages__block--type-three {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     background-color: #83B3D333;
 }
