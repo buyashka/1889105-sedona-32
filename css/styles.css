@@ -821,7 +821,7 @@ body {
 }
 .filters__max-input:hover {
     border: 2px solid #FFFFFF99;
-    margin-right: -1px;
+    margin-left: -1px;
 }
 .filters__max-input:focus {
     box-shadow: 0px 0px 0px 3px #81B3D2, inset 0px 0px 0px 3px #81B3D2;
