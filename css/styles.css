@@ -888,9 +888,6 @@ body {
     font-size: 18px;
     line-height: 24px;
 }
-.filters__price-inputs {
-    display: flex;
-}
 .filters__minprice-text {
     position: absolute;
     top: 12px;
