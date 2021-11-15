@@ -83,19 +83,22 @@
                                         <label class="filters__check">
                                             <input class="filters__input visually-hidden" type="checkbox" name="pool"
                                                 checked>
+                                            <span class="filters__check-mark"></span>
                                             <span class="filters__name">Бассейн</span>
                                         </label>
                                     </li>
-                                    <li class="filters__list">
+                                    <li class="filters__item">
                                         <label class="filters__check">
                                             <input class="filters__input visually-hidden" type="checkbox" name="parklot"
                                                 checked>
+                                            <span class="filters__check-mark"></span>
                                             <span class="filters__name">Парковка</span>
                                         </label>
                                     </li>
-                                    <li class="filters__list">
+                                    <li class="filters__item">
                                         <label class="filters__check">
                                             <input class="filters__input visually-hidden" type="checkbox" name="wifi">
+                                            <span class="filters__check-mark"></span>
                                             <span class="filters__name">Wi-Fi</span>
                                         </label>
                                     </li>
@@ -108,20 +111,23 @@
                                         <label class="filters__radio">
                                             <input class="filters__input visually-hidden" type="radio"
                                                 name="hotel-type-group" value="hotel" checked>
+                                            <span class="filters__radio-mark"></span>
                                             <span class="filters__name">Гостиница</span>
                                         </label>
                                     </li>
-                                    <li class="filters__list">
+                                    <li class="filters__item">
                                         <label class="filters__radio">
                                             <input class="filters__input visually-hidden" type="radio"
                                                 name="hotel-type-group" value="motel">
+                                            <span class="filters__radio-mark"></span>
                                             <span class="filters__name">Мотель</span>
                                         </label>
                                     </li>
-                                    <li class="filters__list">
+                                    <li class="filters__item">
                                         <label class="filters__radio">
                                             <input class="filters__input visually-hidden" type="radio"
                                                 name="hotel-type-group" value="appartments">
+                                            <span class="filters__radio-mark"></span>
                                             <span class="filters__name">Апартаменты</span>
                                         </label>
                                     </li>
@@ -130,19 +136,27 @@
                             <fieldset class="filters__group filters__price">
                                 <legend class="filters__title">Стоимость, ₽:</legend>
                                 <label class="filters__price-box">
-                                    <span class="filters__price-text">от</span>
-                                    <input type="number" name="min-price" class="filters__min-input" value="0">
+                                    <div class="filters__price-inputs">
+                                        <input type="number" name="min-price" class="filters__min-input" value="0">
+                                        <span class="filters__minprice-text">от</span>
+                                    </div>
                                 </label>
                                 <label class="filters__price-box">
-                                    <span class="filters__price-text">до</span>
-                                    <input type="number" name="max-price" class="filters__max-input" value="9000">
+                                    <div class="filters__price-inputs">
+                                        <input type="number" name="max-price" class="filters__max-input" value="9000">
+                                        <span class="filters__maxprice-text">до</span>
+                                    </div>
                                 </label>
-                                <button class="filters__range-toggle filters__toggle-min" type="button">
-                                    <span class="visually-hidden">Изменить минимальную цену.</span>
-                                </button>
-                                <button class="filters__range-toggle filters__toggle-max" type="button">
-                                    <span class="visually-hidden">Изменить максимальную цену.</span>
-                                </button>
+                                <div class="filters__range-scale">
+                                    <div class="filters__range-bar" style="left: 0px; width: 237px">
+                                        <button class="filters__range-toggle filters__toggle-min" type="button">
+                                            <span class="visually-hidden">Изменить минимальную цену.</span>
+                                        </button>
+                                        <button class="filters__range-toggle filters__toggle-max" type="button">
+                                            <span class="visually-hidden">Изменить максимальную цену.</span>
+                                        </button>
+                                    </div>
+                                </div>
                             </fieldset>
                             <div class="filters__buttons-box">
                                 <button class="filters__button" type="submit">Применить</button>
@@ -244,7 +258,8 @@
                                 </div>
                             </div>
                             <div class="hotel-card__rating">
-                                <span class="hotel-card__stars--four visually-hidden">Количество звёзд гостиницы -
+                                <span class="hotel-card__stars--four"></span>
+                                <span class="visually-hidden">Количество звёзд гостиницы -
                                     четыре</span>
                                 <p class="hotel-card__rate">Рейтинг: 8,5</p>
                             </div>
@@ -267,7 +282,8 @@
                                 </div>
                             </div>
                             <div class="hotel-card__rating">
-                                <span class="hotel-card__stars--three visually-hidden">Количество звёзд гостиницы -
+                                <span class="hotel-card__stars--three"></span>
+                                <span class="visually-hidden">Количество звёзд гостиницы -
                                     три</span>
                                 <p class="hotel-card__rate">Рейтинг: 8,9</p>
                             </div>
@@ -290,7 +306,8 @@
                                 </div>
                             </div>
                             <div class="hotel-card__rating">
-                                <span class="hotel-card__stars--two visually-hidden">Количество звёзд гостиницы -
+                                <span class="hotel-card__stars--two"></span>
+                                <span class="visually-hidden">Количество звёзд гостиницы -
                                     две</span>
                                 <p class="hotel-card__rate">Рейтинг: 9,2</p>
                             </div>
@@ -313,7 +330,8 @@
                                 </div>
                             </div>
                             <div class="hotel-card__rating">
-                                <span class="hotel-card__stars--two visually-hidden">Количество звёзд гостиницы -
+                                <span class="hotel-card__stars--two"></span>
+                                <span class="visually-hidden">Количество звёзд гостиницы -
                                     две</span>
                                 <p class="hotel-card__rate">Рейтинг: 9,2</p>
                             </div>
@@ -366,7 +384,7 @@
             </p>
             <form action="https://echo.htmlacademy.ru/" method="POST" class="mailing-list__form mailing-form">
                 <label class="visually-hidden" for="mailing-submit">Ваш e-mail</label>
-                <input type="email" name="e-mail" placeholder="Ваш e-mail" id="mailing-submit">
+                <input type="email" name="e-mail" placeholder="Ваш e-mail" id="mailing-submit" required>
                 <button class="mailing-list__button" type="submit">Подписаться</button>
             </form>
         </section>
